@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background: white;
+    height: initial;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.header {
+    background: #dcdcdc;
+    border: 1px solid;
+    font-size: 16px;
+    height: 180vh;
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    border-style: dotted;
+    order: 1;
+    padding: 6px;
+}
+
+.main {
+    border: 1px solid;
+    border-style: dotted;
+    font-size: 20px;
+    height: auto;
+    width: 600px;
+    flex-shrink: 1;
+    flex-grow: 5;
+    order: 2;
+}
+
+.eu {
+    max-width: fit-content;
+    width: inherit;
+    margin-top: 15px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.objetivo {
+    height: auto;
+    padding: 10px;
+}
+
+.objetivo p {
+    padding: 5px;
+}
+
+.objetivo li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    background:black;
+    opacity: 0.5;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.formacao {
+    height: auto;
+    padding: 10px;
+}
+
+.formacao li {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.curso {
+    height: auto;
+    padding: 10px;
+}
+
+.curso li {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.historico {
+    height: auto;
+    padding: 10px;
+}
+
+.historico li {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.nome img {
+    margin-right: 10px;
+}
+
+.nome li {
+    padding: 10px;
+}
+
+.nome h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.redes {
+    margin-top: 10px;
+}
+.redes li {
+    list-style-type: none;
+    display:inline;
+    padding: 5px;
+    margin-left: 5px;
+}

@@ -1,0 +1,92 @@
+* {
+        margin: 0;
+        padding: 0;
+}
+.container {
+        background: #dcdcdc;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+}
+
+.cab {
+        flex-grow: 1;
+        flex-wrap: wrap;
+        width: 26%;
+}
+
+.main {
+        background: tomato;
+        flex-grow: 9;
+        width: 74%;
+}
+p.cab  {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+}
+
+p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17x;
+}
+
+body {  background: url("equipe.png") no-repeat center;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: rgb(209, 212, 206);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;             
+} 
+img {
+        margin-right: 15px;
+        text-align: center;
+}
+
+
+img.seta:hover {
+        width: 7%;
+        height: 7%;
+        opacity: 0.5;
+}
+
+li {
+        list-style-type: none;
+        margin-top: 20px;
+}
+
+h2 {
+        text-align: center;
+        background-color: rgba(121, 119, 119, 0.774);
+        border-radius: 10px;
+}
+
+h2:hover {
+        background-color: black;
+        color: white;
+        transition: 0.45s;
+        
+}
+
+.titulo:hover {
+        font-size: 105%;
+        background-color: rgb(90, 98, 99, 0.200);
+        color: black;
+        transition: 0.1s;
+}
+
+
+div.menucv {
+        text-align: center;
+}
+
+div.cab {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+}
+
