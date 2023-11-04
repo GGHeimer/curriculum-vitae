@@ -13,6 +13,13 @@ body {
     width: 100vw;
 }
 
+.container {
+    background-color: gray;
+
+    height: 100%;
+    width: 100%;
+}
+
 header {
     background-color: aqua;
 }
