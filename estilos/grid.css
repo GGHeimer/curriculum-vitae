@@ -60,7 +60,7 @@ hr {
 }
 
 .direita {
-    background-color: yellow;
+    background-color: bisque;
     border: solid;
     grid-area: 1 / 10 / 14 / 11;
 }
@@ -71,6 +71,7 @@ hr {
 }
 
 .main {
+    background-color: bisque;
     grid-area: 1 / 2 / 14 / 10;
     border: solid;
 }
@@ -93,6 +94,7 @@ hr {
 }
 
 .footer {
+    background-color: bisque;
     grid-area: 14 / 1 / 15 / 11;
     border: solid;
     text-align: center;
