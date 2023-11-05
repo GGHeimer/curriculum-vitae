@@ -8,26 +8,93 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+}
 
-    height: 100vh;
-    width: 100vw;
+hr {
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .container {
-    background-color: gray;
-
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
     height: 100%;
     width: 100%;
+    background-color: gray;
 }
 
-header {
-    background-color: aqua;
-}
-
-main {
+.esquerda {
     background-color: bisque;
+    border: solid;
+
+    grid-area: 1 / 1 / 14 / 2;
+
+    text-align: center;
+    
 }
 
-footer {
-    background-color: blanchedalmond;
+.eu {
+    font-size: 1.5em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.dados {
+    padding: 10px;
+}
+
+.dados li {
+    padding: 5px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.esquerda img {
+    margin-right: 10px;
+    
+}
+
+
+.redes ul li {
+    display: inline;
+    padding: 5px;
+}
+
+.direita {
+    background-color: yellow;
+    border: solid;
+    grid-area: 1 / 10 / 14 / 11;
+}
+
+.direita li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.main {
+    grid-area: 1 / 2 / 14 / 10;
+    border: solid;
+}
+.main li {
+    margin-left: 50px;
+}
+
+.main h2 {
+    text-align: center;
+}
+
+.objetivo {
+    margin-left: 15px;
+}
+
+.objetivo li {
+    text-decoration: none;
+    display: inline;
+    margin-left: 50px;
+}
+
+.footer {
+    grid-area: 14 / 1 / 15 / 11;
+    border: solid;
+    text-align: center;
+    
 }
