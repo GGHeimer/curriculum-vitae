@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+:root{
+    --primary-color: #bdbfb8;
+    --secondary-color: black;
+    --container-color: #fff;
+    --font--main-color: white;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -21,11 +28,21 @@ hr {
     row-gap: 5px;
     height: 100%;
     width: 100%;
-    background-color: gray;
+    background-color: var(--container-color);
+}
+
+.foto {
+    margin-top: 25px;
+}
+
+.foto img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
 .esquerda {
-    background-color: bisque;
+    background-color: var(--primary-color);
     border: solid;
 
     grid-area: 1 / 1 / 14 / 2;
@@ -34,9 +51,13 @@ hr {
     
 }
 
+hr {
+    opacity: 0.5;
+}
+
 .eu {
     font-size: 1.5em;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 40px;
 }
 .dados {
@@ -53,6 +74,40 @@ hr {
     
 }
 
+.menu nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    padding: 5px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: 500;
+}
+
+nav a:hover {
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: beige;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.btn button {
+    width: 200px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
 
 .redes ul li {
     display: inline;
@@ -60,7 +115,7 @@ hr {
 }
 
 .direita {
-    background-color: bisque;
+    background-color: var(--primary-color);
     border: solid;
     grid-area: 1 / 10 / 14 / 11;
 }
@@ -71,7 +126,7 @@ hr {
 }
 
 .main {
-    background-color: bisque;
+    background-color: var(--primary-color);
     grid-area: 1 / 2 / 14 / 10;
     border: solid;
 }
@@ -94,7 +149,7 @@ hr {
 }
 
 .footer {
-    background-color: bisque;
+    background-color: var(--primary-color);
     grid-area: 14 / 1 / 15 / 11;
     border: solid;
     text-align: center;
