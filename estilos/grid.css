@@ -14,6 +14,8 @@
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -48,6 +50,7 @@ hr {
     grid-area: 1 / 1 / 14 / 2;
 
     text-align: center;
+    max-width: 300px;
     
 }
 
@@ -94,6 +97,7 @@ nav a:hover {
     border-color: beige;
 }
 
+
 .btn {
     display: flex;
     flex-direction: column;
@@ -126,6 +130,7 @@ nav a:hover {
 }
 
 .main {
+    display: none;
     background-color: var(--primary-color);
     grid-area: 1 / 2 / 14 / 10;
     border: solid;
@@ -136,6 +141,10 @@ nav a:hover {
 
 .main h2 {
     text-align: center;
+}
+
+.main:target {
+    display: block;
 }
 
 .objetivo {
