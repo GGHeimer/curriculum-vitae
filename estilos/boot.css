@@ -1,0 +1,22 @@
+:root{
+    --primary-color: #bdbfb8;
+    --secondary-color: black;
+    --container-color: #fff;
+    --font--main-color: white;
+}
+
+body {
+    background-color: beige;
+}
+
+svg {
+    height: 20px;
+    width: 20px;
+    color: black;
+}
+
+footer li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+}

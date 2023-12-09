@@ -130,7 +130,6 @@ nav a:hover {
 }
 
 .main {
-    display: none;
     background-color: var(--primary-color);
     grid-area: 1 / 2 / 14 / 10;
     border: solid;
@@ -141,10 +140,6 @@ nav a:hover {
 
 .main h2 {
     text-align: center;
-}
-
-.main:target {
-    display: block;
 }
 
 .objetivo {
